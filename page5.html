@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="keyword" content="스타리무진, 카니발, 하이리무진, 특장, (주)스타리무진">
+<meta name="description" content="(주)스타리무진">
+<meta name="author" content="(주)스타리무진">
+<meta http-equiv="Subject" content="(주)스타리무진" />
+<meta http-equiv="X-UA-Compatible" content="chrome" />
+<meta http-equiv="Author" content="최진식/이효찬" />
+<meta http-equiv="Cache-Control" content="no-cache" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta property="og:url" content="도메인 구축 후 설정">
+<meta property="og:title" content="(주)스타리무진">
+<meta property="og:type" content="website">
+<!-- SNS 공유시 보여질 이미지 -->
+<meta property="og:image" content="썸네일이미지">
+<!-- SNS 공유시 보여질 설명 -->
+<meta property="og:description" content="공유시 보여질 설명">
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<link rel="stylesheet" href="./css/reset.css">
+<link rel="stylesheet" href="./css/font.css">
+<link rel="stylesheet" href="./css/gasang-head.css">
+<link rel="stylesheet" href="./css/footer.css">
+<link rel="stylesheet" href="./css/media-about.css">
+<link rel="stylesheet" href="./css/about.css">
+<script src="./js/cusMain.js"></script>
+<script src="./js/scroll.js"></script>
+
+
+
+
+
+<title>(주)스타리무진</title>
+</head>
+<style>
+
+    .all-view{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .top-txt{
+        position: absolute;
+        top: 40%;
+        right: 10%;
+        color: #fff;
+    }
+
+    .top-txt h2{
+        font-size: 48px;
+        margin-bottom: 30px;
+    }
+
+    .top-txt p{
+        font-family: 'NotoSansKR-Medium';
+    }
+
+    .small-nav{
+        margin-bottom: 100px;
+    }
+
+    .small-nav ul{
+        display: flex;
+        background-color: #e0e0e0;
+        padding: 30px 20px;
+        padding-left: 250px;
+    }
+
+    .small-nav ul li{
+        margin-right: 30px;
+        font-size: 16px;
+        font-family: 'NotoSansKR-Regular';
+    }
+
+    .in-cont{
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 100px;
+    }
+
+    .in-cont ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .in-cont ul li{
+        margin-right: 20px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .in-cont ul li:nth-of-type(7),.in-cont ul li:nth-of-type(8),.in-cont ul li:nth-of-type(9){
+        margin-bottom: 0;
+    }
+
+    .in-cont ul li img{
+        margin-bottom: 30px;
+    }
+
+    .in-cont ul li p{
+        font-size: 13px;
+        font-family: 'NotoSansKR-Regular';
+    }
+
+    .in-cont ul li span{
+        font-size: 13px;
+        color: red;
+        animation: price 0.5s infinite;
+    }
+
+    .page-number ul{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 300px;
+    }
+
+    .page-number ul li{
+        margin-right: 10px;
+        border: 1px solid #e0e0e0;
+        width: 30px;
+        text-align: center;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    @keyframes price{
+        0%{
+            color: red;
+        }
+
+        50%{
+            color: #000;
+        }
+
+        100%{
+            color: red;
+        }
+    }
+
+
+</style>
+
+
+<body>
+<div id="wrapper">
+    <!-- 헤더부분은 건들지 말 것 -->
+    <h1>(주)스타리무진</h1>
+    <header id="header">
+        <!-- 데스크탑 -->
+        <div class="desk">
+            <div class="logo">
+                <img src="./img/스타리무진 로고 앰블럼.png" alt="">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">홈</a></li>
+                <li><a href="./about.html">회사소개</a></li>
+                <li><a href="./model.html">모델</a></li>
+                <li><a href="./index3.html">커스텀</a></li>
+                <li><a href="./prs9.html">가상견적</a></li>
+                <li><a href="https://www.youtube.com/@Starlm/videos" target="_blank">유튜브</a></li>
+                <li><a href="./gallery.html">갤러리</a></li>
+                <li><a href="./go.html">고객지원</a></li>
+                    <li>
+                        <div class="search-container">
+                            <label>
+                          <input type="text" class="top-sch" style="background-color: inherit; color: #fff;">
+                        </label>
+                        </div>
+                      </li>
+                </ul>
+                <h2>
+                    The One and Only Carnival Hi Limousine
+                </h2>
+            </nav>
+            <div class="origin">
+                <img src="./img/origin.png" alt="">
+            </div>
+            <div class="phone">
+                <img src="./img/phone.png" alt="">
+                <p>1588-8216</p>
+            </div>
+        </div>
+
+        <!-- 모바일 헤더 -->
+        <div class="mobile">
+            <div class="logoM">
+                <img src="./img2/logo_gold.png" alt="">
+            </div>
+            <!-- <h2>The One and Only Carnival Hi Limousine</h2> -->
+            <div id="navbtn">
+                <img src="./img2/navbtn.png" alt="" onclick="navBtn();">
+            </div>
+            <div id="navbtnC">
+                <img src="./img2/navbtn.png" alt="" onclick="navBtnC();">
+            </div>
+        </div>
+        <nav id="navM">
+            <ul>
+                <li>홈</li>
+                <li>회사소개</li>
+                <li>모델</li>
+                <li>커스텀</li>
+                <li>가상견적</li>
+                <li>유튜브</li>
+                <li>갤러리</li>
+                <li>고객지원</li>
+            </ul>
+        </nav>
+    </header>
+    <!-- 헤더 끝 -->
+
+    <div class="all-view">
+        <div class="top-banner">
+            <div class="top-banner-img">
+                <img src="./img2/About1.png" alt="상단배너">
+            </div>
+            <div class="top-txt">
+                <h2>즉시출고차</h2>
+                <p>(주)스타리무진은 계약을 유도하기 위한 허위 차량이 아닌 <br>
+                실제 보유중인 차량만을 즉시 출고하고 있으므로 <br>
+            당일 바로 빠르게 출고가 가능합니다.</p>
+            </div>
+        </div>
+
+        <div class="small-nav">
+            <ul>
+                <li><a href="./index.html">홈</a></li>
+                <li>|</li>
+                <li><a href="./now.html">즉시출고차</a></li>
+            </ul>
+        </div>
+
+        <div class="in-cont">
+            <ul>
+                <li>
+                    <!-- 내부 사진 -->
+                    <a href="#"><img src="./img/snow.png" alt=""></a>
+                    <!-- 가격영역 -->
+                    <p>[신차] STARLIMOUSINE</p>
+                    <span>52,000,000원</span>
+                </li>
+                <li>
+                    <a href="#"><img src="./img/metal.png" alt=""></a>
+                    <p>[신차] STARLIMOUSINE</p>
+                    <span>42,000,000원</span>
+                </li>
+                <li>
+                    <a href="#"><img src="./img/blue.png" alt=""></a>
+                    <p>[신차] STARLIMOUSINE</p>
+                    <span>62,000,000원</span>
+                </li>
+                <li>
+                    <a href="#"><img src="./img3/sell-ok.png" alt=""></a>
+                    <p>[판매완료] STARLIMOUSINE</p>
+                    <span>78,000,000원</span>
+                </li>
+                <li>
+                    <a href="#"><img src="./img3/sell-ok.png" alt=""></a>
+                    <p>[판매완료] STARLIMOUSINE</p>
+                    <span>99,000,000원</span>
+                </li>
+                <li>
+                    <a href="#"><img src="./img3/sell-ok.png" alt=""></a>
+                    <p>[판매완료] STARLIMOUSINE</p>
+                    <span>86,000,000원</span>
+                </li>
+                <li>
+                    <a href="#"><img src="./img3/sell-ok.png" alt=""></a>
+                    <p>[판매완료] STARLIMOUSINE</p>
+                    <span>57,000,000원</span>
+                </li>
+                <li>
+                    <a href="#"><img src="./img3/sell-ok.png" alt=""></a>
+                    <p>[판매완료] STARLIMOUSINE</p>
+                    <span>51,000,000원</span>
+                </li>
+                <li>
+                    <a href="#"><img src="./img3/sell-ok.png" alt=""></a>
+                    <p>[판매완료] STARLIMOUSINE</p>
+                    <span>69,000,000원</span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="page-number">
+            <ul>
+                <li><a href="./now.html">1</a></li>
+                <li><a href="./page2.html">2</a></li>
+                <li><a href="./page3.html">3</a></li>
+                <li><a href="./page4.html">4</a></li>
+                <li class="active"><a href="./page5.html">5</a></li>
+                <li><a href="./page6.html">6</a></li>
+                <li><a href="./page7.html">7</a></li>
+                <li><a href="./page8.html">8</a></li>
+                <li><a href="./page9.html">9</a></li>
+            </ul>
+        </div>
+        
+    </div>
+    
+
+    <!-- footer부분 시작 -->
+    <footer id="footer" >
+        <div class="footer-txt">
+            <div class="first-footer">
+                <h2>(주)스타리무진</h2>
+                <ul>
+                    <li>회사명:(주)스타리무진</li>
+                    <li>대표자:김민수</li>
+                    <li>주소:인천 서구 백범로 830 3층</li>
+                    <li>이메일:niziume@naver.com</li>
+                    <li>전화번호:1588-8216</li>
+                    <li>팩스번호:032-573-9773</li>
+                    <li>사업자등록번호:614-81-06215</li>
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">개인정보처리방침</a></li>
+                </ul>
+            </div>
+            <div class="last-footer">
+                <h2>바로가기</h2>
+                <ul>
+                    <li>홈</li>
+                    <li>회사소개</li>
+                    <li>모델</li>
+                    <li>커스텀</li>
+                    <li>가상견적</li>
+                    <li>갤러리</li>
+                    <li>고객지원</li>
+                </ul>
+            </div>
+        </div>
+        <div class="txt">
+            <p>ⓒ 2024 Star Limousine INC. All rights reserved</p>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
+
+</div>
+
+<script src="./js/about.js"></script>
+
+
+
+
+
+</body>
+
+</html>
