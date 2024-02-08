@@ -1,0 +1,182 @@
+/* reset */
+* { margin:0; padding:0; }
+li { list-style:none; }
+a { text-decoration: none; color:inherit; }
+img { vertical-align: top; }
+
+/* common */
+html.fix { overflow: hidden; }
+.prd { color:#222; font-family: "Noto Sans KR", sans-serif; font-optical-sizing: auto; font-weight: <weight>; font-style: normal; }
+.wrap { width:94%; max-width: 1200px; margin:0 auto; position: relative; }
+.wrap:after, ul:after, .cl:after { content:""; clear:both; display: block; }
+.fl { display:flex; align-items: center; justify-content: center; }
+.fl:after { display: none; }
+.dn { display:none !important; }
+
+
+/* 비주얼배너 */
+.sv { text-align: center; } 
+.sv img { width: 100%; max-width:1680px; }  
+
+/* 제품 타이틀 및 카테고리 */
+.prd { padding-bottom: 200px; }
+.prd .title h2 { font:500 48px "Noto Sans KR"; margin-top: 140px; } 
+.prd .title p { font:500 16px/1.6 "Noto Sans KR"; margin-top: 20px; } 
+
+.prd h3 { color:#fff; font:24px/50px "Noto Sans KR"; text-align: center; background: #456985; margin: 150px 0; }
+
+/* 순정 카테고리 */
+.prd .w_cate li { float:left; width:285px; margin-right: 20px; text-align: center; }
+.prd .w_cate li:last-child { margin-right: 0; }
+.prd .w_cate li h4 { font:500 18px/50px "Noto Sans KR"; background: #ccc; color:#000; margin-bottom: 10px; }
+.prd .w_cate li .fl a { width: 140px; font:600 16px/40px "Noto Sans KR"; box-sizing: border-box; margin-right: 5px; border:1px solid #ccc; display: block; }
+.prd .w_cate li .fl a:last-child { margin-right: 0; }
+.prd .w_cate li .fl a.select { background: #456985; color:#fff; }
+.prd .w_cate li:first-child .fl a { width: 100%; }
+
+/* 각 옵션관련 */
+.prd { margin-top: 100px; }
+.prd h2 { font:500 32px "Noto Sans KR"; margin-bottom: 40px; }
+.prd h6 { font:500 24px "Noto Sans KR"; }
+.prd form { margin-top: 160px; }
+.prd article > ul { margin-top: 40px; margin-bottom: 100px; }
+.prd article > ul > li { float:left; width:32%; margin:0 2% 2% 0; position: relative;  text-align: center; }
+.prd article > ul > li.small { width:auto; }
+.prd article > ul > li.cb { clear: both; }
+.prd article > ul > li figure { max-height: 206px; display:flex; align-items: center; justify-content: center; overflow: hidden; }
+.prd article > ul > li.small figure { padding:0 52px; }
+.prd article > ul > li img { max-width: 100%; } 
+.prd article > ul > li input { position: absolute; left: 10px; top: calc(50% - 11px); width: 20px; height: 20px; border:1px solid #ccc; }
+.prd article > ul > li > div { margin-top: 10px; width: 100%; border:1px solid #ccc; display: block; cursor: pointer; box-sizing: border-box; position: relative; }
+.prd article > ul > li > div label { display: flex; align-items: center; justify-content: center; text-align: center; font-family: "Noto Sans KR"; padding:10px 0; height: 40px; font-weight:600; cursor: pointer; }
+.cont2 li figure { background: #dfe0e0; }
+
+/* 하이브리드 외장 및 내피컬러 */
+#ex ul { display: none; }
+#ex ul.on { display: block; }
+
+.gray { display: none; }
+.gray.on { display: block; }
+
+
+/* 하이루프, 풀트리밍 외 대메뉴 */
+.prd h2 input { width:24px; height: 24px; margin-left: 10px; }
+.prd article .nocheck input[type=checkbox] { display: none; }
+
+/* 총 합계 */
+.prd .total { background: rgba(255,255,255,0.95); position: fixed; left: calc(50% - 600px); bottom: 0; width:100%; height: 80px; text-align: center; z-index: 98; display: flex; align-items: center; justify-content: center; border-top:1px solid #ddd; font-size:32px; width:1200px;  font-weight: 500; }
+.prd .total b { font-family: "Noto Sans KR"; font-weight: 500;  }
+.prd .total input { background: none; border:1px solid rgba(0,0,0,0); font-size:40px; text-align: right; width:300px; margin-right: 10px; font-family: "Noto Sans KR"; color:#111; font-weight: 700; }
+.prd .total em { font:normal 500 18px "Noto Sans KR"; margin-left: 10px; }
+
+/* 견적요약 */
+#list { position: fixed; right:0; top:calc(100vh - 81px); z-index: 10; background:#fff; width:320px; height:100vh; overflow-y: auto; padding:20px; box-sizing: border-box; border:1px solid #ccc; border-right:none;  z-index: 999; transition: 0.3s; font-family:"Noto Sans KR";  }
+#list.on { top:0px; border-top:none; }
+#list h1 { font-size:30px; font-weight: 500;  }
+#list h2 { margin-top: 20px; font-size:18px; font-weight: 500; }
+#list h2:before { content:"■ "; float:left; margin-right: 4px; }
+#list h6 { margin-top: 10px; font-size:16px; font-weight: 500; }
+#list div p { margin-top: 4px; font:400 16px "Noto Sans KR"; position: relative; padding-left: 14px; }
+#list div p:after { content:""; clear: both; display: block; }
+#list div p span:before { content:"-"; position: absolute; left: 0; }
+#list div p span { float:left; }
+#list div p b { float:right; text-align: right; padding-left: 10px; }
+
+
+#list h2:after { content:""; clear: both; display: block; }
+#list h2 span { float:left; }
+#list h2 b { float:right; text-align: right; padding-left: 10px; font-size:16px; }
+#list .xi-close-thin { position: absolute; right:16px; top:22px; font-size:40px; transform: rotate(-45deg) scale(0.8);}
+#list.on .xi-close-thin { transform: rotate(0);}
+#list #high p, #list #full p { display: none !important; }
+
+
+
+
+
+@media (max-width:800px) { /* 모바일용 */
+.pc { display: none !important; }
+
+.prd { font-size:13px; }    
+.wrap { width: 94%; }
+    
+/* 제품 타이틀 및 카테고리 */
+.prd .title h2 { font-size:32px; margin-top: 100px; } 
+.prd .title p { font-size:14px; word-break: keep-all; }   
+.prd h3 { font-size:18px; margin: 80px 0; }
+
+/* 순정 카테고리 */    
+.prd .w_cate { margin-bottom: 100px; }
+.prd .w_cate li { width:23.5%; margin-right: 2%; }
+.prd .w_cate li h4 { font-size:14px; }
+.prd .w_cate li .fl { position: absolute; width: 100%; left: 0; display: none; }
+.prd .w_cate li.on h4 { background: #444; color:#fff; }    
+.prd .w_cate li.on .fl { display: flex; }
+.prd .w_cate li .fl a { width: 49%; font-size:14px; margin-right: 2%; background: #fff; }
+
+/* 각 옵션관련 */    
+.prd h2, .prd h6 { font-size:18px;  }
+.prd article > ul { margin-top: 20px; margin-bottom: 60px;  }
+.prd article > ul > li { width:49%; margin:0 2% 20px 0; }
+.prd article > ul > li:nth-of-type(2n) { margin-right: 0; }
+.prd article > ul > li:nth-of-type(2n+1) { clear:both; }
+.prd article > ul > li.cb { margin-right: 2%; }        
+.prd article > ul > li.cb + li { clear: none; margin-right: 0;}        
+.prd article > ul > li figure { height: auto; }
+.prd article > ul > li img { max-width: 100%; }     
+.prd article > ul > li input { width: 14px; height: 14px; left:6px; top:calc(50% - 7px); }
+.prd article > ul > li > div { line-height:1.4; display:flex; align-items: center; justify-content: center; height:50px; }
+.prd article > ul > li > div label { word-break: keep-all; padding:0 20px;  }
+.prd article > ul > li > div.l2  { height: 80px;  } /* 모바일 텍스트 2줄 */
+.prd article h3 { margin-top: 10px; font-size:16px; }
+.prd article h3 + ul { margin-bottom: 20px;  }
+.prd article > ul > li.small { width:49%; }
+.prd article > ul > li.small figure { padding:0; }
+
+/* 하이루프, 풀트리밍 외 대메뉴 */
+.prd .high h2, .prd .full h2, .prd h5, .prd h2.bt { font-size:22px !important; margin-bottom: 20px;  }    
+.prd h2 input, .prd .full h2 input { width: 20px; height: 20px;  }
+.prd h6 { font-size:18px; }    
+    
+
+    
+/* 총 합계 */
+.prd .total { font-size:16px; height:70px; padding-bottom: 6px;  }
+.prd .total input { width: 170px; font-size:26px; }
+.prd .total a { padding:6px; background: #111; color:#fff; margin-left: 8px; font-size:13px; }
+.prd .total .estimate { padding:6px; background: #111; color:#fff; margin-left: 8px; font-size:13px; cursor: pointer; }
+.prd .total em { font-size:12px; position: absolute; width:100%; text-align: center; left: 0; bottom:8px; padding-left: 50px;}
+
+/* 견적요약 */
+#list { top:101vh; width:100%; transition: 0.3s;  right:0; border:none; }
+#list.on { top:0px; }
+#list .xi-close-thin { position: absolute; right:16px; top:18px; font-size:40px; }
+#list h1 { font-size:24px; }    
+#list div h2 { font-size:18px; }    
+#list div p { font-size:16px; }    
+#list div p br.mob { display: none; }    
+
+
+
+
+    
+}
+
+
+@media (min-width:801px) { /* PC용 */
+.mob { display: none !important; }
+
+
+.prd article > ul > li:nth-of-type(3n) { margin-right: 0; }
+.prd article > ul > li:nth-of-type(3n+1) { clear:both; } 
+    
+.prd article > ul > li.cb { margin-right: 2%;}
+.prd article > ul > li.cb + li { clear:none; }    
+.prd article > ul > li.cb + li + li { margin-right: 0;  }    
+}
+
+
+
+
+
+

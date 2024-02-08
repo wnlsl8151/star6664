@@ -1,0 +1,76 @@
+        /* 하이루프 첫번째 섹션 */
+        #sec01{
+            width: 90%;
+            margin: 0 auto;
+            position: relative;
+            margin-bottom: 100px;
+        }
+
+        #sec01 h2{
+            position: absolute;
+            top: 85%;
+            left: 5%;
+            /* font-weight: 700; */
+            font-size: 80px;
+            font-family: 'D-DIN';
+        }
+
+        /* 하이루프 두번째 섹션 */
+
+        #sec02{
+            border-top: 1px solid #d5d5d5;
+            font-family: 'NotoSansKR-SemiBold';
+            padding-top: 70px;
+        }
+
+        #sec02 h3{
+            font-size: 40px;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        #sec02 .hiroof-main-txt p{
+            font-size: 12px;
+            font-family: 'NotoSansKR-SemiBold';
+            margin-bottom: 50px;
+        }
+
+        #sec02 .img01{
+            margin-bottom: 30px;
+        }
+
+        #sec02 .img01-1{
+            display: flex;
+            margin-bottom: 200px;
+        }
+
+        #sec02 .img01-1 img{
+            width: 48%;
+        }
+
+        #sec02 .img01-1 img:first-of-type{
+            margin-right: 40px;
+        }
+
+        #sec02 .img02{
+            margin-bottom: 200px;
+        }
+
+        .option-blue{
+            width: 100%;
+            background-color: #456985;
+            text-align: center;
+            color: #fff;
+            padding: 7px;
+            margin-bottom: 200px;
+        }
+
+        .sign-txt p{
+            font-size: 12px;
+            margin-bottom: 70px;
+            font-weight: 600;
+        }
+
+        .m-sign{
+            width: 450px;
+        }

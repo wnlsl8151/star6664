@@ -1,0 +1,215 @@
+
+
+#sec01{
+    margin-bottom: 50px;
+}
+
+#sec01 .img-box img{
+    position: relative;
+    width: 1700px;
+    height: 700px;
+}
+
+
+.menu {
+width: 1500px;
+overflow: hidden;
+/* margin: 150px auto; */
+position: relative;
+z-index: 99;
+padding-top: 70px;
+}
+
+.top-menu{
+    display: flex;
+    justify-content: center;
+}
+
+.menu > li {
+width: 20%; /*20*5=100%*/
+float: left;
+text-align: left;
+line-height: 40px;
+background:  #456985;
+}
+
+.menu a {
+color: #000;
+margin-left: 20px;
+z-index: 9999;
+}
+
+.submenu > li {
+line-height: 50px;
+background-color: #fff;
+color: #000;
+font-size: 40px;
+border-bottom: 1px solid #000;
+border-top: 1px solid #000;
+z-index: 9999;
+}
+
+.submenu > li:last-child{
+    border-top: none;
+}
+
+.submenu {
+height: 0; /*ul의 높이를 안보이게 처리*/
+overflow: hidden;
+color: #000;
+}
+
+.menu > li:hover {
+/* background-color: #456985; */
+height: auto;
+z-index: 99;
+transition-duration: 0.2s;
+z-index: 9999;
+}
+
+.menu > li:hover .submenu {
+height: 300px; /*서브메뉴 li한개의 높이 50*5*/
+transition-duration: 1s;
+z-index: 99;
+z-index: 9999;
+}
+
+
+#sec02 .category{
+line-height: 20px;
+}
+
+#sec02 .subsubmenu{
+font-size: 10px;
+line-height: 30px;
+color: black;
+z-index: 9999;
+
+}
+
+#sec03{
+    position: absolute;
+    top: 1000px;
+    left: 20%;
+    /* margin-bottom: 1500px; */
+}
+
+#sec03 ul{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+}
+
+#sec03 ul li{
+margin-right: 20px;
+margin-bottom: 30px;
+z-index: 3;
+}
+
+#popup{
+display: none;
+background-color: rgba(0, 0, 0, 0.4);
+width: 100%;
+height: 700px;
+top: 20%;
+position: fixed;
+z-index: 998;
+}
+
+.pop-img{
+position: absolute;
+width: 1000px;
+top: 20%;
+left: 23%;
+z-index: 1;
+}
+
+.pop-close{
+width: 30px;
+position: absolute;
+top: 10%;
+right:5%;
+}
+
+.down_btn button{
+    background: #222;
+    font-size: 12px;
+    color: #fff;
+    cursor: pointer;
+    padding: 2px 16px;
+    line-height: 20px;
+    border-radius:30px;
+    border:none;
+    letter-spacing:-1px;
+}
+.down_btn button:hover{
+   box-shadow:1px 1px 4px rgba(0,0,0,0.4);
+
+
+}
+
+#popup .down_btn{
+    margin-left: 1250px;
+    margin-top: 50px;
+}
+
+.share img{
+    width: 15px;
+    position: absolute;
+    top: 97%;
+    left: 20%;
+    cursor: pointer;
+}
+
+.down{
+    position: absolute;
+    top: 95%;
+    left: 22%;
+    display: flex;
+    cursor: pointer;
+}
+
+.down img{
+    width: 50px;
+}
+
+#all-down{
+    display: flex;
+    margin-right: 15px;
+}
+
+#all-down p,#select-down p{
+    margin-top: 10px;    
+}
+
+#select-down{
+    display: flex;
+}
+
+#sec03 ul li p{
+    text-align: center;
+    margin-top: 10px;
+}
+
+#footer{
+    position: absolute;
+    top: 1500px;
+    width: 100%;
+}
+
+.sw{
+    width: 20px;
+    position: absolute;
+    left: 480px;
+    top: 100px;
+}
+
+.dw{
+    position: absolute;
+    width: 60px;
+    top: 82px;
+    left: 520px;
+}
+
+
+
+

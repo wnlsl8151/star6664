@@ -1,0 +1,185 @@
+@media (max-width:430px) {
+
+    html{
+        max-width: 430px;
+    }
+
+    /* 모바일 헤더 */
+
+   .desk{
+    display: none;
+   }
+
+   .mobile{
+    position: static;
+    display: flex;
+    justify-content: start;
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+   }
+
+   .mobile .logoM{
+    display: block;
+    width: 50px;
+    margin-right: 330px;
+   }
+
+   .mobile #navbtn{
+    display: block;
+    width: 25px;
+    margin-top: 12px;
+   }
+
+   .mobile #navbtnC{
+    width: 25px;
+    margin-top: 12px;
+   }
+
+   #navM{
+    position: absolute;
+    background: #fff;
+    width: 100%;
+    padding: 50px;
+   }
+
+   #navM ul li{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: right;
+    border-bottom: 1px solid #dadada;
+   }
+
+   #navM ul li:last-child{
+    padding-bottom: 0;
+    border-bottom: none;
+   }
+
+   .mobile h2{
+    display: block;
+    color: #fff;
+   }
+
+   /* 모바일 섹션01 */
+
+   #sec01 h2{
+    top: 25%;
+    left: 5%;
+    font-size: 30px;
+   }
+
+   #sec01 img{
+    width: 430px;
+    height: 220px;
+   }
+   /* 모바일 섹션02 */
+
+   #sec02{
+    margin-top: 0;
+   }
+   #sec02 h2{
+    font-size: 30px;
+    text-align: center;
+    border-top: 4px solid #eaeaea;
+   }
+
+   #sec02 p{
+    text-align: center;
+   }
+
+   /* 모바일 섹션03 */
+
+   #sec03{
+    display: block;
+   }
+
+   #sec03 .roof{
+    width: 100%;
+    margin-bottom: 2px;
+   }
+
+   #sec03 .roof p{
+    top: 52%;
+    font-size: 30px;
+   }
+
+   #sec03 .row{
+    display: flex;
+    width: 100%;
+    /* margin-bottom: 2px; */
+   }
+   
+   #sec03 .row p:first-of-type{
+    top: 85%;
+    left: 0;
+    margin-left: 20px;
+    font-size: 30px;
+   }
+
+   #sec03 .row p:last-of-type{
+    top: 85%;
+    font-size: 30px;
+    left: 50%;
+    margin-left: 20px;
+    height: 44px;
+   }
+
+   /* 모바일 섹션 04 */
+
+   #sec04{
+    margin-bottom: 2px;
+   }
+
+   #sec04 p{
+    font-size: 30px;
+    top: 40%;
+   }
+
+   /* 모바일 섹션 05 */
+
+   #sec05{
+    display: block;
+   }
+
+   #sec05 .f1st{
+    display: flex;
+    width: 50%;
+    margin-bottom: 2px;
+   }
+
+   #sec05 .f1st img:first-of-type{
+    margin-right: 2px;
+   }
+
+   #sec05 .f1st p:first-of-type{
+    font-size: 30px;
+    top: 20%;
+   }
+
+   #sec05 .f1st p:last-of-type{
+    font-size: 30px;
+    top: 20%;
+    left: 50%;
+   }
+
+   #sec05 .t2nd{
+    width: 100%;
+   }
+
+   #sec05 .t2nd p{
+    font-size: 30px;
+   }
+
+   /* 모바일 푸터 */
+
+   .first-footer{
+    font-size: 10px;
+    margin: 0 auto;
+   }
+
+   .last-footer{
+    display: none;
+   }
+}
+
+/* 여기까지 커스텀 메인의 모바일 */

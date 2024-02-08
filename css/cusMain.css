@@ -1,0 +1,151 @@
+#sec01{
+    z-index: 3;
+    margin-bottom: 100px;
+}
+
+#sec01 h2{
+    position: absolute;
+    top: 70%;
+    color: #fff;
+    left: 10%;
+    font-size: 60px;
+    font-family: 'D-DIN';
+}
+
+#sec02{
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+#sec02 h2{
+    font-size: 50px;
+    font-family: 'NotoSansKR-SemiBold';
+    padding-top: 30px;
+    border-top: 2px solid #eaeaea;
+}
+
+#sec02 p{
+    font-family: 'NotoSansKR-Regular';
+}
+
+#sec03 {
+    display: flex;
+    margin-bottom: 2px;
+    position: relative;
+    text-shadow: 3px 4px 5px #000;
+}
+
+.roof{
+    width: 70%;
+    margin-right: 2px;
+}
+
+.roof p{
+    position: absolute;
+    bottom: 10%;
+    margin-left: 20px;
+    font-size: 50px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.row{
+    width: 35%;
+}
+
+.row p:first-of-type{
+    font-size: 50px;
+    color: #fff;
+    position: absolute;
+    top: 37%;
+    right: 27%;
+    font-weight: 700;
+}
+
+.row p:last-of-type{
+    font-size: 50px;
+    color: #fff;
+    position: absolute;
+    bottom: 7%;
+    right: 27%;
+    font-weight: 700;
+}
+
+#sec04{
+    position: relative;
+    display: flex;
+    text-shadow: 3px 4px 5px #000;
+    color: #fff;
+}
+
+#sec04 p{
+    margin-right: 2px;
+    position: absolute;
+    top: 77%;
+    margin-left: 20px;
+    font-size: 50px; 
+    font-weight: 700;
+}
+
+#sec04 img{
+    width: 99.6%;
+}
+
+.trunk img{
+    margin-left: 2px;
+}
+
+.etc img{
+    margin-left: 2px;
+}
+
+#sec05{
+    display: flex;
+    position: relative;
+    text-shadow: 3px 4px 5px #000;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.f1st{
+    width: 35%;
+    margin-right: 2px;
+}
+
+.f1st p{
+    font-size: 45px;
+    position: absolute;
+    color: #fff;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.f1st p:first-of-type{
+    top: 35%;
+}
+
+.f1st p:last-of-type{
+    bottom: 7%;
+}
+
+.t2nd{
+    width: 70%;
+}
+
+.t2nd p{
+    position: absolute;
+    color: #fff;
+    font-weight: 700;
+    margin-left: 20px;
+    font-size: 45px;
+    bottom: 7%;
+}
+
+.top{
+    display: none;
+}
+
+#imgg7{
+    display: none;
+}
